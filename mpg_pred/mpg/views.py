@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template import Context, loader
 
 # Create your views here.
+
+
 def index(request):
-    return HttpResponse("MSCI 436 Project")
+    return render(request, "mpg/index.html")
