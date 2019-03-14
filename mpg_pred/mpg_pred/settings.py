@@ -25,8 +25,7 @@ SECRET_KEY = '(y%krp7qx9mx0)4kfj2(jp91l9fu+5gjppbp%jr1i8yjm&ti30'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.73.153.139']
-
+ALLOWED_HOSTS = ['34.73.153.139', '127.0.0.1']
 
 # Application definition
 
@@ -54,7 +53,7 @@ ROOT_URLCONF = 'mpg_pred.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"/home/mpg_predictor/MPG_Predictor/templates"],
+        'DIRS': [r"C:\Users\Jacinto D'Souza\Documents\Waterloo\Management Engineering\3A\MSCI 436 - Decision Support Systems\Project\MPG_Predictor\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
